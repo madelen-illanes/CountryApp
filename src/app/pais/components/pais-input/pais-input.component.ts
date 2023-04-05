@@ -7,7 +7,7 @@ import { debounceTime, Subject } from 'rxjs';
   styleUrls: ['./pais-input.component.css']
 })
 export class PaisInputComponent implements OnInit {
-  @Input() placeholder: string = ''
+@Input() placeholder: string = ''
 @Output() onEnter: EventEmitter<string> = new EventEmitter();
 @Output() onDebounce: EventEmitter<string>= new EventEmitter();
 
